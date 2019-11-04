@@ -77,8 +77,9 @@
                                 <rect key="frame" x="80" y="123" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaP-Su-R9e">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaP-Su-R9e">
                                 <rect key="frame" x="65" y="575" width="284" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next Gesture">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -98,11 +99,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="fB2-gg-COL" firstAttribute="trailing" secondItem="XaP-Su-R9e" secondAttribute="trailing" id="5yL-MH-Zxc"/>
-                            <constraint firstItem="fB2-gg-COL" firstAttribute="bottom" secondItem="XaP-Su-R9e" secondAttribute="bottom" constant="176" id="Eam-Rb-bk0"/>
-                            <constraint firstItem="XaP-Su-R9e" firstAttribute="leading" secondItem="fB2-gg-COL" secondAttribute="leading" id="M7A-6A-t9s"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fB2-gg-COL"/>
                     </view>
                     <navigationItem key="navigationItem" id="EYg-jH-MP4"/>
@@ -129,8 +125,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMZ-df-zqE">
-                                <rect key="frame" x="59" y="575" width="284" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMZ-df-zqE">
+                                <rect key="frame" x="50" y="674" width="284" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next Gesture">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -148,14 +145,19 @@
                                     <segue destination="5is-s6-wn4" kind="show" id="c8d-hl-0EQ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="ecology.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDM-R0-TQz">
-                                <rect key="frame" x="74" y="97" width="240" height="139"/>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="internet.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDM-R0-TQz">
+                                <rect key="frame" x="32" y="207" width="353" height="351"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="351" id="48t-h9-hux"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="QMZ-df-zqE" firstAttribute="top" secondItem="TDM-R0-TQz" secondAttribute="bottom" constant="350" id="UUV-Ug-O2g"/>
+                            <constraint firstItem="TDM-R0-TQz" firstAttribute="centerX" secondItem="9VF-4H-lU6" secondAttribute="centerX" id="Fjt-2h-3U2"/>
+                            <constraint firstItem="TDM-R0-TQz" firstAttribute="top" secondItem="9VF-4H-lU6" secondAttribute="top" constant="211" id="sLo-3O-Lih"/>
+                            <constraint firstItem="TDM-R0-TQz" firstAttribute="leading" secondItem="XDR-N3-gYX" secondAttribute="leading" constant="30" id="zD7-Xv-U8m"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XDR-N3-gYX"/>
                     </view>
@@ -176,8 +178,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNW-Du-XCv">
-                                <rect key="frame" x="64" y="563" width="284" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNW-Du-XCv">
+                                <rect key="frame" x="65" y="693" width="284" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next Gesture">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -195,11 +198,6 @@
                                     <segue destination="xg2-i8-Yz9" kind="show" id="EYO-Fm-Flp"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="hot-air-balloon copy-3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wma-Hm-lie">
-                                <rect key="frame" x="74" y="113" width="240" height="139"/>
-                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
-                                <gestureRecognizers/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rotation Gesture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhE-dF-oIf">
                                 <rect key="frame" x="84" y="48" width="221" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -207,13 +205,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hot-air-balloon copy-3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wma-Hm-lie">
+                                <rect key="frame" x="12" y="196" width="392" height="424"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <gestureRecognizers/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="mNW-Du-XCv" firstAttribute="centerY" secondItem="Y7H-tp-rC7" secondAttribute="centerY" id="5pg-96-MD1"/>
-                            <constraint firstItem="7FN-iq-uR5" firstAttribute="bottom" secondItem="mNW-Du-XCv" secondAttribute="bottom" constant="176" id="eDi-jT-Fp3"/>
-                            <constraint firstItem="mNW-Du-XCv" firstAttribute="top" secondItem="Wma-Hm-lie" secondAttribute="bottom" constant="350" id="ls5-Fw-UH7"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7FN-iq-uR5"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ea5-FZ-p9u"/>
@@ -234,7 +233,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dex-8n-YUI">
-                                <rect key="frame" x="100" y="145" width="240" height="139"/>
+                                <rect key="frame" x="100" y="145" width="240" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Long Press Gesture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypU-Fb-iIS">
@@ -244,8 +243,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKr-Ez-wFk">
-                                <rect key="frame" x="69" y="569" width="284" height="63"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKr-Ez-wFk">
+                                <rect key="frame" x="54" y="679" width="284" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.90000000000000002"/>
                                 <state key="normal" title="Next Gesture">
@@ -263,9 +263,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="IzQ-Ml-Sus" firstAttribute="bottom" secondItem="LKr-Ez-wFk" secondAttribute="bottom" constant="176" id="W4V-la-NA5"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="IzQ-Ml-Sus"/>
                     </view>
                     <navigationItem key="navigationItem" id="AKc-Yy-QM7"/>
@@ -280,9 +277,9 @@
     </scenes>
     <resources>
         <image name="apple.png" width="45.343173980712891" height="45.343173980712891"/>
-        <image name="ecology.png" width="42.666667938232422" height="42.666667938232422"/>
         <image name="folder (1) copy.png" width="384" height="384"/>
         <image name="hot-air-balloon copy-3x.png" width="204" height="204"/>
+        <image name="internet.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="star.png" width="384" height="384"/>
     </resources>
 </document>

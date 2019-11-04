@@ -26,7 +26,7 @@ class RotationViewController: UIViewController {
           
           if let view = recognizer.view {
             view.transform = view.transform.rotated(by: recognizer.rotation)
-            recognizer.rotation = 1
+            recognizer.rotation = 6
           }
         
           }

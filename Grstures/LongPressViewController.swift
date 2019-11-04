@@ -14,7 +14,7 @@ class LongPressViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let longPress=UILongPressGestureRecognizer(target: self, action: #selector(addLongPress))
-        longPress.minimumPressDuration=1
+        longPress.minimumPressDuration = 0.5
         file.addGestureRecognizer(longPress)
         // Do any additional setup after loading the view.
     }

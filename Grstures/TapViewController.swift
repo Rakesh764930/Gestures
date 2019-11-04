@@ -26,10 +26,10 @@ class TapViewController: UIViewController {
     
     @objc func handleTap(recognizer: UITapGestureRecognizer) {
         
-        recognizer.numberOfTouchesRequired = 2
+        recognizer.numberOfTouchesRequired = 1
         if recognizer.state == .ended {
             
-            let alert = UIAlertController(title: "Unable to open", message: "You don't have access to this apple ", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Unable to open", message: "You don't have access to the Earth ", preferredStyle: .alert)
             
             alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
             

@@ -19,6 +19,7 @@
 		9BA1A2F6236E44B900EA0BC6 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1A2F5236E44B900EA0BC6 /* RotationViewController.swift */; };
 		9BA1A2F9236E48FA00EA0BC6 /* ecology.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1A2F8236E48FA00EA0BC6 /* ecology.png */; };
 		9BA1A2FB236E4AD400EA0BC6 /* LongPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1A2FA236E4AD400EA0BC6 /* LongPressViewController.swift */; };
+		9BDCB0362370E3210001F78C /* internet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDCB0352370E3210001F78C /* internet.png */; };
 		9BEEBCC32370CFDE00FBBF89 /* hot-air-balloon-1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BEEBCC22370CFDE00FBBF89 /* hot-air-balloon-1x.png */; };
 		9BEEBCC62370D03000FBBF89 /* hot-air-balloon copy-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BEEBCC42370D03000FBBF89 /* hot-air-balloon copy-3x.png */; };
 		9BEEBCC72370D03000FBBF89 /* hot-air-balloon-2x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BEEBCC52370D03000FBBF89 /* hot-air-balloon-2x copy.png */; };
@@ -41,6 +42,7 @@
 		9BA1A2F5236E44B900EA0BC6 /* RotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
 		9BA1A2F8236E48FA00EA0BC6 /* ecology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecology.png; sourceTree = "<group>"; };
 		9BA1A2FA236E4AD400EA0BC6 /* LongPressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressViewController.swift; sourceTree = "<group>"; };
+		9BDCB0352370E3210001F78C /* internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = internet.png; sourceTree = "<group>"; };
 		9BEEBCC22370CFDE00FBBF89 /* hot-air-balloon-1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hot-air-balloon-1x.png"; sourceTree = "<group>"; };
 		9BEEBCC42370D03000FBBF89 /* hot-air-balloon copy-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hot-air-balloon copy-3x.png"; sourceTree = "<group>"; };
 		9BEEBCC52370D03000FBBF89 /* hot-air-balloon-2x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hot-air-balloon-2x copy.png"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				9BA1A2FA236E4AD400EA0BC6 /* LongPressViewController.swift */,
 				9BA1A2E1236E31E100EA0BC6 /* Main.storyboard */,
 				9BA1A2E4236E31E200EA0BC6 /* Assets.xcassets */,
+				9BDCB0352370E3210001F78C /* internet.png */,
 				9BEEBCC22370CFDE00FBBF89 /* hot-air-balloon-1x.png */,
 				9BEEBCC52370D03000FBBF89 /* hot-air-balloon-2x copy.png */,
 				9BEEBCC42370D03000FBBF89 /* hot-air-balloon copy-3x.png */,
@@ -161,6 +164,7 @@
 				9BEEBCC72370D03000FBBF89 /* hot-air-balloon-2x copy.png in Resources */,
 				9BA1A2E8236E31E200EA0BC6 /* LaunchScreen.storyboard in Resources */,
 				9BEEBCC92370D17E00FBBF89 /* star.png in Resources */,
+				9BDCB0362370E3210001F78C /* internet.png in Resources */,
 				9BEEBCC32370CFDE00FBBF89 /* hot-air-balloon-1x.png in Resources */,
 				9BEEBCCB2370D2CB00FBBF89 /* apple.png in Resources */,
 				9BA1A2E5236E31E200EA0BC6 /* Assets.xcassets in Resources */,
