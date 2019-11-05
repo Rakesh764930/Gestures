@@ -46,6 +46,36 @@ class RotationViewController: UIViewController {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
        override func viewWillAppear(_ animated: Bool) {
            setGradientBackground()
            super.viewWillAppear(animated)

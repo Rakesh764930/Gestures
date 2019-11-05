@@ -35,6 +35,38 @@ class PanViewController: UIViewController {
         
         }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // B a c k g r o u n d     c o l o r
     
         override func viewWillAppear(_ animated: Bool) {
